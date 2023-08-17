@@ -1,0 +1,50 @@
+  487  cd ..
+  488  cd..
+  489  cd ..
+  490  cd .
+  491  cd .
+  492  ls
+  493  cd .
+  494  cd .
+  495  cd ..
+  496  ls
+  497  ls
+  498  cd o
+  499  cd OneDrive/Escritorio/
+  500  git clone https://github.com/jennyquinto/ejercitacion-integradora.git
+  501  ls
+  502  cd OneDrive/
+  503  cd Escritorio/
+  504  mkdir checkPoint-jennyQuinto
+  505  cd checkPoint-jennyQuinto/
+  506  git init
+  507  git branch -M main
+  508  git remote add origin git@github.com:jennyquinto/checkPoint-jennyQuinto.git
+  509  git remote -v
+  510  touch main.js index.html
+  511  git commit -m "commit 01 de JennnyQuinto"
+  512  git add .
+  513  git commit -m "commit 01 de JennnyQuinto"
+  514  git push -u origin main
+  515  git checkout -b feature
+  516  mkdir Hardware Software SeguridadInformatica
+  517  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  518  git push origin feature
+  519  git add .
+  520  git commit -m "commit 02 de JennnyQuinto"
+  521  git push origin feature
+  522  git checkout main
+  523  mv main.js resumenHardware.txt
+  524  mv index.html resumenSoftware.txt
+  525  ls
+  526  cd resumenSoftware.txt 
+  527  ls
+  528  echo "Browsers" >> resumenSoftware.txt 
+  529  echo "Antivuris" >> resumenSoftware.txt 
+  530  echo "Lector de pdf" >> resumenSoftware.txt 
+  531  echo "ROM" >> resumenHardware.txt
+  532  echo "RAM" >> resumenHardware.txt
+  533  echo "CACHÉ" >> resumenHardware.txt
+  534  touch comandos.txt
+  535  history
+  536  history 50 > comandos.txt
